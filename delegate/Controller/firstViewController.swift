@@ -11,16 +11,14 @@ import UIKit
 class firstViewController: UIViewController,nameDelegate{
 
     @IBOutlet var firstNameTextField: UITextField!
-    
-    
     @IBOutlet var fullNameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
 
-    // using segues 
+    // using segue
     
     @IBAction func goToNextPageBtnPressed(_ sender: UIButton) {
         
@@ -28,11 +26,13 @@ class firstViewController: UIViewController,nameDelegate{
         
     }
     
+    // first view controller becomes the delegate
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         let destinationVC = segue.destination as! secondViewController
         destinationVC.delegate = self
-    }
+     }
     
     func getFullName(lastName: String) {
         fullNameLabel.text = firstNameTextField.text! + " " + lastName

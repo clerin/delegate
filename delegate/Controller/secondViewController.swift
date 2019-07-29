@@ -14,16 +14,12 @@ import UIKit
 
 class secondViewController: UIViewController {
 
-   
     @IBOutlet var lnameTextField: UITextField!
-    
     var delegate : nameDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+}
     
 
     @IBAction func gotoHomePageBtnPressed(_ sender: UIButton) {
