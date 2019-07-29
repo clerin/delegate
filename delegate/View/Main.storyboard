@@ -37,6 +37,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Zm-ks-wKO">
                                 <rect key="frame" x="20" y="425" width="374" height="46"/>
+                                <color key="backgroundColor" red="0.93803161201138185" green="0.93803161201138185" blue="0.93803161201138185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="go to next page ➞"/>
                                 <connections>
