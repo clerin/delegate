@@ -20,6 +20,8 @@ class firstViewController: UIViewController,nameDelegate{
         // Do any additional setup after loading the view.
     }
 
+    // using segues 
+    
     @IBAction func goToNextPageBtnPressed(_ sender: UIButton) {
         
         performSegue(withIdentifier: "second", sender: self)
