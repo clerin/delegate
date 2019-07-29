@@ -23,7 +23,7 @@ class secondViewController: UIViewController {
     
 
     @IBAction func gotoHomePageBtnPressed(_ sender: UIButton) {
-       
+    // optional chaining
         self.delegate?.getFullName(lastName: lnameTextField.text!)
         dismiss(animated: true, completion: nil)
         
