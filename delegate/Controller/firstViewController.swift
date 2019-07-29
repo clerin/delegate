@@ -33,7 +33,7 @@ class firstViewController: UIViewController,nameDelegate{
     }
     
     func getFullName(lastName: String) {
-        fullNameLabel.text = firstNameTextField.text! + "" + lastName
+        fullNameLabel.text = firstNameTextField.text! + " " + lastName
     }
     
 }
